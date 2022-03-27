@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazypix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar">
+       
+        <div class="nav-brading">
+            <a href="">Hazypix</a>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#rarity">Rarity</a></li>
+                <li><a href="#creator">Creator</a></li>
+                <li><a href="https://discord.com"><i class="fa-brands fa-discord"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                <li>
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label class="label" for="chk">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </li>
+                
+                <li><a href="https://opensea.io" ><button class="blue-btn">View on OpenSea</button></a></li>
+            </ul>
+        </div>
+        <div class="menu-btn">
+            <button onclick="toggleManu() ()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    
+    <div class="manu-bar" id="manubar">
+        <ul>
+            <li><a href="#about" onclick="closeManu()">About</a></li>
+            <li><a href="#roadmap" onclick="closeManu()">Roadmap</a></li>
+            <li><a href="#rarity" onclick="closeManu()">Rarity</a></li>
+            <li><a href="#creator" onclick="closeManu()">Creator</a></li>
+            <li onclick="closeManu()">
+                <input type="checkbox" class="checkbox" id="chk">
+                <label class="label" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </li>
+        </ul>
+    </div>
+
+    <section class="hero-section">
+
+        <img src="img/img-1.svg" alt="" data-spped="2" class="layer">
+        <img src="img/img-2.svg" alt="" data-spped="2" class="layer">
+        <img src="img/img-3.svg" alt="" data-spped="2" class="layer">
+        <img src="img/img-4.svg" alt="" data-spped="2" class="layer">
+        <img src="img/img-5.svg" alt="" data-spped="2" class="layer">
+        <img src="img/img-6.svg" alt="" data-spped="2" class="layer">
+
+        <div class="hero-text layer" data-spped="2">
+            <span>Hazypix</span>
+            <span>A 10000 piece custom avatars collection is joining the NFT Space on Opensea.</span>
+            <a href="https://opensea.io" class="primary-btn">View on OpenSea</a>
+        </div>
+
+    </section>
+
+    <section class="about-section" id="about">
+        
+        <div class="about-text">
+            <span>What is Hazypix ?</span>
+            <p>Hazypix is a drop of custom illustrative characters, created by Harsh, aiming to express culture, personality and individuality. Through hand-drawn hairstyles, facial expressions, and clothes, Avatar Squad embraces what it means to be on the common ground but having a sense of individuality.</p>
+        </div>
+
+        <div class="about-img">
+            <img src="img/info-nft.svg" alt="">
+        </div>
+
+    </section>
+
+    <section class="nft-showcase">
+        <div class="row">
+            <img src="img/img-4.svg" alt="">
+            <img src="img/img-2.svg" alt="">
+            <img src="img/img-3.svg" alt="">
+            <img src="img/img-5.svg" alt="">
+            <img src="img/img-9.svg" alt="">
+            <img src="img/img-7.svg" alt="">
+            <img src="img/img-1.svg" alt="">
+            <img src="img/img-6.svg" alt="">
+            <img src="img/img-12.svg" alt="">
+            <img src="img/img-23.svg" alt="">
+            <img src="img/img-13.svg" alt="">
+            <img src="img/img-10.svg" alt="">
+            <img src="img/img-11.svg" alt="">
+            <img src="img/img-22.svg" alt="">
+            <img src="img/img-8.svg" alt="">
+            <img src="img/img-17.svg" alt="">
+            <img src="img/img-19.svg" alt="">
+            <img src="img/img-15.svg" alt="">
+            <img src="img/img-14.svg" alt="">
+            <img src="img/img-18.svg" alt="">
+            <img src="img/img-20.svg" alt="">
+            <img src="img/img-16.svg" alt="">
+            <img src="img/img-21.svg" alt="">
+        </div>
+        <div class="row">
+            <img src="img/img-9.svg" alt="">
+            <img src="img/img-4.svg" alt="">
+            <img src="img/img-3.svg" alt="">
+            <img src="img/img-6.svg" alt="">
+            <img src="img/img-2.svg" alt="">
+            <img src="img/img-8.svg" alt="">
+            <img src="img/img-1.svg" alt="">
+            <img src="img/img-5.svg" alt="">
+            <img src="img/img-7.svg" alt="">
+            <img src="img/img-10.svg" alt="">
+            <img src="img/img-16.svg" alt="">
+            <img src="img/img-11.svg" alt="">
+            <img src="img/img-18.svg" alt="">
+            <img src="img/img-15.svg" alt="">
+            <img src="img/img-14.svg" alt="">
+            <img src="img/img-17.svg" alt="">
+            <img src="img/img-20.svg" alt="">
+            <img src="img/img-12.svg" alt="">
+            <img src="img/img-13.svg" alt="">
+            <img src="img/img-23.svg" alt="">
+            <img src="img/img-21.svg" alt="">
+            <img src="img/img-19.svg" alt="">
+            <img src="img/img-22.svg" alt="">
+        </div>
+        <div class="row">
+            <img src="img/img-4.svg" alt="">
+            <img src="img/img-10.svg" alt="">
+            <img src="img/img-5.svg" alt="">
+            <img src="img/img-6.svg" alt="">
+            <img src="img/img-2.svg" alt="">
+            <img src="img/img-3.svg" alt="">
+            <img src="img/img-1.svg" alt="">
+            <img src="img/img-7.svg" alt="">
+            <img src="img/img-8.svg" alt="">
+            <img src="img/img-9.svg" alt="">
+            <img src="img/img-11.svg" alt="">
+            <img src="img/img-12.svg" alt="">
+            <img src="img/img-15.svg" alt="">
+            <img src="img/img-13.svg" alt="">
+            <img src="img/img-16.svg" alt="">
+            <img src="img/img-18.svg" alt="">
+            <img src="img/img-14.svg" alt="">
+            <img src="img/img-19.svg" alt="">
+            <img src="img/img-17.svg" alt="">
+            <img src="img/img-21.svg" alt="">
+            <img src="img/img-22.svg" alt="">
+            <img src="img/img-20.svg" alt="">
+            <img src="img/img-23.svg" alt="">
+        </div>
+    </section>
+
+    <section class="roadmap" id="roadmap">
+        
+        <div class="roadmap-img">
+            <img src="img/roadmap.svg" alt="">
+        </div>
+
+        <div class="roadmap-cards">
+            <div class="roadmap-text">
+                <span>Roadmap</span>
+                <p>This roadmap outlines our goals and where we want to take Avatar Squad. We have a lot of ideas and concepts that we are working on.</p>
+            </div>
+
+            <div class="card">
+                <span>1.Launch</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia tempora officiis quisquam facilis mollitia nisi saepe exercitationem minus labore, dignissimos consequatur accusamus aliquid maxime ea ex vel. Eius, repellat.</p>
+            </div>
+
+            <div class="card">
+                <span>2.Community Giveaway</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia tempora officiis quisquam facilis mollitia nisi saepe exercitationem minus labore, dignissimos consequatur accusamus aliquid maxime ea ex vel. Eius, repellat.</p>
+            </div>
+
+            <div class="card">
+                <span>3.Merchandise Drop</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia tempora officiis quisquam facilis mollitia nisi saepe exercitationem minus labore, dignissimos consequatur accusamus aliquid maxime ea ex vel. Eius, repellat.</p>
+            </div>
+
+            <div class="card">
+                <span>4.Collaboration</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia tempora officiis quisquam facilis mollitia nisi saepe exercitationem minus labore, dignissimos consequatur accusamus aliquid maxime ea ex vel. Eius, repellat.</p>
+            </div>
+
+            <div class="card">
+                <span>5.Future Drops</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia tempora officiis quisquam facilis mollitia nisi saepe exercitationem minus labore, dignissimos consequatur accusamus aliquid maxime ea ex vel. Eius, repellat.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="rarity" id="rarity">
+        
+        <div class="rarity-text">
+            <span>Rarity</span>
+            <p>Each NFT is algorithmically generated by combining 1200+ unique traits across different categories. There are only 130 legendary NFTs available for grabs.</p>
+            
+            <div class="rarity-container">
+                
+                <div class="rarity-card">
+                    <span>Common</span>
+                    <span>Folk</span>
+                </div>
+
+                <div class="rarity-card">
+                    <span>Uncommon</span>
+                    <span>Dudes</span>
+                </div>
+
+                <div class="rarity-card">
+                    <span>Rare</span>
+                    <span>Gang</span>
+                </div>
+
+                <div class="rarity-card">
+                    <span>Ultra</span>
+                    <span>Team</span>
+                </div>
+
+                <div class="rarity-card">
+                    <span>Legendary</span>
+                    <span>Squad</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="rarity-img">
+            <img src="img/nft-about.svg" alt="">
+        </div>
+    </section>
+
+    <section class="creator" id="creator">
+        
+        <div class="creator-img">
+            <img src="img/creator.svg" alt="">
+        </div>
+
+        <div class="creator-text">
+            <span>Creator</span>
+            <p>I'm Harsh, a full time creator and illustrator based in India. I have more than 8 years of experience in experimenting with digital art.</p>
+            <p>When I'm not designing, you can either catch me surfing, at a coffee shop somewhere, or on my private <a href="https://discord.com">Discord</a>.</p>
+            <a href="https://twitter.com" class="primary-btn">Follow on Twitter</a>
+        </div>
+
+    </section>
+
+    <section class="faq">
+        <h4>Frequently Asked Questions</h4>
+
+        <div class="faq-container">
+            <div class="faq-card" onclick="openFaq(this)">
+                    <span>When is the mint date? <i class="fa-regular fa-sort-down"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut dolore impedit minima quasi ab dolor debitis ea! Provident debitis nulla pariatur consectetur dolor obcaecati porro reprehenderit quam quibusdam labore.</p>
+            </div>
+
+            <div class="faq-card" onclick="openFaq(this)"> 
+                <span>What's an NFT? <i class="fa-regular fa-sort-down"></i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut dolore impedit minima quasi ab dolor debitis ea! Provident debitis nulla pariatur consectetur dolor obcaecati porro reprehenderit quam quibusdam labore.</p>
+            </div>
+
+            <div class="faq-card" onclick="openFaq(this)">
+                <span>Why Hazypix? <i class="fa-regular fa-sort-down"></i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut dolore impedit minima quasi ab dolor debitis ea! Provident debitis nulla pariatur consectetur dolor obcaecati porro reprehenderit quam quibusdam labore.</p>
+            </div>
+
+            <div class="faq-card" onclick="openFaq(this)">
+                <span>What exactly will I get? <i class="fa-regular fa-sort-down"></i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut dolore impedit minima quasi ab dolor debitis ea! Provident debitis nulla pariatur consectetur dolor obcaecati porro reprehenderit quam quibusdam labore.</p>
+            </div>
+
+        </div>  
+    </section>
+
+    <section class="ad">
+        <div class="ad-text">
+            <span>Get your Hazypix NFT now</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis explicabo eos tenetur suscipit omnis aperiam, consectetur est eveniet. In, sed. Ullam, hic. Incidunt, dolore nihil eius aut eum ipsa perferendis.</p>
+            <a href="" class="blue-btn">View on OpenSea</a>
+        </div>
+
+        <div class="ad-img">
+            <img src="img/info-nft.svg" alt="">
+        </div>
+    </section>
+
+    <section class="footer">
+        <span>Hazypix</span>
+        <p>A 10000 piece custom avatars collection is joining the NFT Space on <a href="https://opensea.io">Opensea.</a></p>
+        <span>
+            <a href="https://discord.com"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </span>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
