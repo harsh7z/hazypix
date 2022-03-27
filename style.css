@@ -694,11 +694,13 @@ body.dark{
     transform: rotate(180deg);
 }
 
+
 .faq-card span{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .faq-card p{
@@ -940,11 +942,7 @@ body.dark{
     .faq-card{
         height: 54px;
     }
-    
-    .faq-card span{
-        font-size: 1.1rem;
-    }
-    
+
     .faq h4{
         font-size: 2rem;
         text-align: center
