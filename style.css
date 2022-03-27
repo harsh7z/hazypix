@@ -937,6 +937,10 @@ body.dark{
         padding: 5rem 2rem;    
     }
 
+    .faq-card{
+        height: 54px;
+    }
+    
     .faq-card span{
         font-size: 1.1rem;
     }
