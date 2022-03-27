@@ -937,6 +937,10 @@ body.dark{
         padding: 5rem 2rem;    
     }
 
+    .faq-card span{
+        font-size: 1.1rem;
+    }
+    
     .faq h4{
         font-size: 2rem;
         text-align: center
