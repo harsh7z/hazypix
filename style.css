@@ -144,7 +144,7 @@ body.dark{
 }
 
 .manu-active{
-    height: 40%;
+    height: 280px;
 }
 
 .manu-active ul{
@@ -290,6 +290,9 @@ body.dark{
     top: -5rem;
     right: 0;
     transform: rotate(20deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(20deg);
+    -o-transform:rotate(20deg); 
 }
 
 .hero-section img:nth-child(2){
@@ -298,12 +301,18 @@ body.dark{
     left: 1;
     animation: imgMove-1 4s infinite;
     rotate: 20deg;
+    -webkit-rotate:(20deg);
+    -moz-rotate:(20deg);
+    -o-rotate:(20deg); 
 }
 
 .hero-section img:nth-child(3){
     bottom: -5rem;
     left: -3rem;
     transform: rotate(-20deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(20deg);
+    -o-transform:rotate(20deg); 
 }
 
 .hero-section img:nth-child(4){
@@ -311,6 +320,9 @@ body.dark{
     top: 1;
     left: 2rem;
     rotate: -20deg;
+    -webkit-rotate:(-20deg);
+    -moz-rotate:(-20deg);
+    -o-rotate:(-20deg); 
     animation: imgMove-2 4s infinite;
 }
 
@@ -319,6 +331,9 @@ body.dark{
     right: 1;
     left: 1;
     rotate: -20deg;
+    -webkit-rotate:(-20deg);
+    -moz-rotate:(-20deg);
+    -o-rotate:(-20deg); 
     animation: imgMove-1 4s infinite;
 }
 
@@ -327,6 +342,10 @@ body.dark{
     top: 1;
     right: 2rem;
     rotate: 20deg;
+    rotate: 20deg;
+    -webkit-rotate:(20deg);
+    -moz-rotate:(20deg);
+    -o-rotate:(20deg); 
     animation: imgMove-2 4s infinite;
 }
 
