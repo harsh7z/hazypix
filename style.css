@@ -253,43 +253,70 @@ body.dark{
 
 @keyframes imgMove-1{
     0%{
-        transform: rotate​(​20​deg​) translateY(0);
+        transform: translateY(0) rotate(20deg) ;
+        -webkit-transform: translateY(0) rotate(20deg) ;
+        -moz-transform: translateY(0) rotate(20deg) ;
+        -o-transform: translateY(0) rotate(20deg) ; 
     }
 
     50%{
-        transform: rotate​(​20​deg​) translateY(-30px);
+        transform: translateY(-30px) rotate(20deg) ;
+        -webkit-transform: translateY(-30px) rotate(20deg) ;
+        -moz-transform: translateY(-30px) rotate(20deg) ;
+        -o-transform: translateY(-30px) rotate(20deg) ;
     }
 
     100%{
-        transform: rotate​(​20​deg​) translateY(0);
+        transform: translateY(0) rotate(20deg) ;
+        -webkit-transform: translateY(0) rotate(20deg) ;
+        -moz-transform: translateY(0) rotate(20deg) ;
+        -o-transform: translateY(0) rotate(20deg) ; 
     }
 }
 
 @keyframes imgMove-2{
     0%{
-        transform: rotate​(​-20​deg​) translateY(0);
+        transform: translateY(0) rotate(-20deg) ;
+        -webkit-transform: translateY(0) rotate(-20deg) ;
+        -moz-transform: translateY(0) rotate(-20deg) ;
+        -o-transform: translateY(0) rotate(-20deg) ;
     }
 
     50%{
-        transform: rotate​(-​20​deg​) translateY(30px);
+        transform: translateY(30px) rotate(-20deg) ;
+        -webkit-transform: translateY(30px) rotate(-20deg) ;
+        -moz-transform: translateY(30px) rotate(-20deg) ;
+        -o-transform: translateY(30px) rotate(-20deg) ;
     }
 
     100%{
-        transform: rotate​(-​20​deg​) translateY(0);
+        transform: translateY(0) rotate(-20deg) ;
+        -webkit-transform: translateY(0) rotate(-20deg) ;
+        -moz-transform: translateY(0) rotate(-20deg) ;
+        -o-transform: translateY(0) rotate(-20deg) ;
     }
 }
 
 @keyframes textMove{
     0%{
         transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
     }
 
     50%{
         transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
     }
 
     100%{
         transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
     }
 }
 
@@ -413,7 +440,7 @@ body.dark{
 
 .about-img img{
     width: 60%;
-    animation: imgMove-1 4s infinite;
+    animation: textMove 4s infinite;
 }
 
 .nft-showcase{
@@ -440,28 +467,46 @@ body.dark{
 @keyframes rowmove-1{
     0%{
         transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 
     50%{
         transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
     }
 
     100%{
         transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 }
 
 @keyframes rowmove-2{
     0%{
         transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 
     50%{
         transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -o-transform: translateX(100%);
     }
 
     100%{
         transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 }
 
@@ -753,6 +798,7 @@ body.dark{
     margin: 1rem 0;
     text-align: justify;
 }
+
 .ad-img{
     flex-basis: 50%;
 }
@@ -817,9 +863,27 @@ body.dark{
     .hero-section img:nth-child(1){
         display: none;
     }
+
+    .hero-section img:nth-child(2){
+        transform: rotate(20deg);
+    }
     
     .hero-section img:nth-child(3){
         display: none;
+    }
+
+    .hero-section img:nth-child(4){
+        left: -6rem;
+        width: 144px;
+    }
+
+    .hero-section img:nth-child(5){
+        top: -6rem;
+    }
+
+    .hero-section img:nth-child(6){
+        right: -3rem;
+        width: 144px;
     }
 
     .hero-text span:nth-child(1){
