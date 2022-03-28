@@ -253,29 +253,29 @@ body.dark{
 
 @keyframes imgMove-1{
     0%{
-        transform: translateY(0) rotate​(​20​deg​);
+        transform: rotate​(​20​deg​) translateY(0);
     }
 
     50%{
-        transform: translateY(-30px) rotate​(​20​deg​);
+        transform: rotate​(​20​deg​) translateY(-30px);
     }
 
     100%{
-        transform: translateY(0) rotate​(​20​deg​);
+        transform: rotate​(​20​deg​) translateY(0);
     }
 }
 
 @keyframes imgMove-2{
     0%{
-        transform: translateY(0) rotate​(​-20​deg​);
+        transform: rotate​(​-20​deg​) translateY(0);
     }
 
     50%{
-        transform: translateY(30px) rotate​(​-20​deg​);
+        transform: rotate​(-​20​deg​) translateY(30px);
     }
 
     100%{
-        transform: translateY(0) rotate​(​-20​deg​);
+        transform: rotate​(-​20​deg​) translateY(0);
     }
 }
 
