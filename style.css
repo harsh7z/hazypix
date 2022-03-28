@@ -253,32 +253,45 @@ body.dark{
 
 @keyframes imgMove-1{
     0%{
-        transform: translateY(10);
+        transform: translateY(10) rotate​(​20​deg​);
     }
 
     50%{
-        transform: translateY(-30px);
+        transform: translateY(-30px) rotate​(​20​deg​);
     }
 
     100%{
-        transform: translateY(1 0);
+        transform: translateY(10) rotate​(​20​deg​);
     }
 }
 
 @keyframes imgMove-2{
     0%{
-        transform: translateY(0);
+        transform: translateY(10) rotate​(​-20​deg​);
     }
 
     50%{
-        transform: translateY(30px);
+        transform: translateY(30px) rotate​(​-20​deg​);
     }
 
     100%{
-        transform: translateY(0);
+        transform: translateY(10) rotate​(​-20​deg​);
     }
 }
 
+@keyframes textMove{
+    0%{
+        transform: translateY(10) rotate​(​20​deg​);
+    }
+
+    50%{
+        transform: translateY(-30px) rotate​(​20​deg​);
+    }
+
+    100%{
+        transform: translateY(10) rotate​(​20​deg​);
+    }
+}
 
 .hero-section img{
     position: absolute;
@@ -297,7 +310,6 @@ body.dark{
     right: 1;
     left: 1;
     animation: imgMove-1 4s infinite;
-    rotate: 20deg;
 }
 
 .hero-section img:nth-child(3){
@@ -310,7 +322,6 @@ body.dark{
     bottom: 1;
     top: 1;
     left: 2rem;
-    rotate: -20deg;
     animation: imgMove-2 4s infinite;
 }
 
@@ -318,7 +329,6 @@ body.dark{
     top: -1rem;
     right: 1;
     left: 1;
-    rotate: -20deg;
     animation: imgMove-1 4s infinite;
 }
 
@@ -326,7 +336,6 @@ body.dark{
     bottom: 1;
     top: 1;
     right: 2rem;
-    rotate: 20deg;
     animation: imgMove-2 4s infinite;
 }
 
@@ -340,7 +349,7 @@ body.dark{
     z-index: 1;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
-    animation: imgMove-1 4s infinite;
+    animation: textMove 4s infinite;
 }
 
 .hero-text span:nth-child(1){
@@ -475,7 +484,7 @@ body.dark{
 
 .roadmap-img img{
     width: 80%;
-    animation: imgMove-2 4s infinite;
+    animation: textMove 4s infinite;
 }
 
 .roadmap-text span{
@@ -618,7 +627,7 @@ body.dark{
 
 .creator-img img{
     width: 80%;
-    animation: imgMove-1 4s infinite;
+    animation: textMove 4s infinite;
 }
 
 .creator-text{
@@ -808,45 +817,9 @@ body.dark{
     .hero-section img:nth-child(1){
         display: none;
     }
-
-    .hero-section img:nth-child(2){
-        transform: rotate(20deg);
-        -webkit-transform:rotate(20deg);
-        -moz-transform:rotate(20deg);
-        -o-transform:rotate(20deg); 
-    }
     
     .hero-section img:nth-child(3){
         display: none;
-        transform: rotate(-20deg);
-        -webkit-transform:rotate(-20deg);
-        -moz-transform:rotate(-20deg);
-        -o-transform:rotate(-20deg); 
-    }
-
-    .hero-section img:nth-child(4){
-        left: -6rem;
-        width: 144px;
-        transform: rotate(-20deg);
-        -webkit-transform:rotate(-20deg);
-        -moz-transform:rotate(-20deg);
-        -o-transform:rotate(-20deg); 
-    }
-
-    .hero-section img:nth-child(5){
-        top: -6rem;
-        transform: rotate(-20deg);
-        -webkit-transform:rotate(-20deg);
-        -moz-transform:rotate(-20deg);
-        -o-transform:rotate(-20deg); 
-    }
-
-    .hero-section img:nth-child(6){
-        right: -9rem;
-        transform: rotate(20deg);
-        -webkit-transform:rotate(20deg);
-        -moz-transform:rotate(20deg);
-        -o-transform:rotate(20deg); 
     }
 
     .hero-text span:nth-child(1){
